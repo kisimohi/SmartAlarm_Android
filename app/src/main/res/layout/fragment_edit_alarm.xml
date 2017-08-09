@@ -1,0 +1,120 @@
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context="com.kissy_software.secondchancealarm.editpage.EditAlarmFragment">
+
+    <LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+        xmlns:tools="http://schemas.android.com/tools"
+        android:orientation="vertical"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent" >
+
+        <LinearLayout
+            android:orientation="horizontal"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_margin="5dp" >
+
+            <TextView
+                android:text="@string/time_setting"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginRight="8dp"
+                android:paddingTop="24dp"
+                android:layout_gravity="top"
+                android:id="@+id/textView" />
+
+            <TimePicker
+                android:timePickerMode="spinner"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_gravity="top"
+                android:id="@+id/timePicker" />
+
+        </LinearLayout>
+
+        <LinearLayout
+            android:orientation="horizontal"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_margin="5dp" >
+
+            <ToggleButton
+                android:textOn="@string/date_sunday"
+                android:textOff="@string/date_sunday"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:id="@+id/toggleButtonSunday" />
+
+            <ToggleButton
+                android:textOn="@string/date_monday"
+                android:textOff="@string/date_monday"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:id="@+id/toggleButtonMonday" />
+
+            <ToggleButton
+                android:textOn="@string/date_tuesday"
+                android:textOff="@string/date_tuesday"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:id="@+id/toggleButtonTuesday" />
+
+            <ToggleButton
+                android:textOn="@string/date_wednesday"
+                android:textOff="@string/date_wednesday"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:id="@+id/toggleButtonWednesday" />
+        </LinearLayout>
+
+        <LinearLayout
+            android:orientation="horizontal"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_margin="5dp" >
+
+          <ToggleButton
+                android:textOn="@string/date_thursday"
+                android:textOff="@string/date_thursday"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:id="@+id/toggleButtonThursday" />
+
+            <ToggleButton
+                android:textOn="@string/date_friday"
+                android:textOff="@string/date_friday"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:id="@+id/toggleButtonFriday" />
+
+            <ToggleButton
+                android:textOn="@string/date_saturday"
+                android:textOff="@string/date_saturday"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:id="@+id/toggleButtonSaturday" />
+
+        </LinearLayout>
+
+        <CheckBox
+            android:text="@string/date_except_holiday"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:id="@+id/checkBoxExceptHoliday"
+            android:layout_margin="5dp" />
+
+        <Button
+            android:text="OK"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="30dp"
+            android:id="@+id/buttonOk"
+            android:layout_gravity="center_horizontal"/>
+
+    </LinearLayout>
+
+
+</ScrollView>
