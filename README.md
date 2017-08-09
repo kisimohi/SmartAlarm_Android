@@ -18,8 +18,8 @@ See author's personal [blog page](http://blog.kissy-software.com/) (Japanese) fo
 
 ## Notes
 
-* This app made by Android Studio 2.2.
-* You need to setup the IoT device side. See [GitHub page](#)
+* This app is made by Android Studio 2.2.
+* You need to setup the IoT device side. See [GitHub page](https://github.com/kisimohi/SmartAlarm_IoTDevice)
 * This app supports Japanese national holidays until 2025.
 
 ## License
